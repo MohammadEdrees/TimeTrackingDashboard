@@ -21,7 +21,7 @@ body {
 .main {
   width: 100%;
   height: 600px;
-  background-color: #5672ce;
+  /* background-color: #5672ce; */
   margin-top: 5%;
   display: flex;
 }
@@ -38,7 +38,7 @@ body {
   width: 100%;
   border-radius: 5%;
   background-color: #5747ea;
-  color: aliceblue;
+  color: #bbc0ff;
 }
 .profileImageContainer {
   height: 50%;
@@ -51,11 +51,22 @@ body {
   display: grid;
   grid-template-columns: 20% 20% 20% 20% 20%;
   width: 100%;
+  column-gap: 1.5%;
+  row-gap: 10%;
 }
 .card {
-  height: 160px;
+  height: 85%;
+  width: 85%;
+  background-color: #ff8b64;
+  border-radius: 10%;
+}
+.innerCardPart {
+  height: 85%;
   width: 100%;
-  background-color: rgb(104, 159, 207);
+  background-color: #1c204b;
+  border-radius: 10%;
+  margin-top: 20%;
+  display: grid;
 }
 .profileImage {
   width: 48%;
@@ -65,5 +76,57 @@ body {
   border: 3px solid white;
 }
 .periods {
-  color: aliceblue;
+  color: #ffffff;
+  padding-left: 10%;
+  padding-top: 10%;
+}
+.period {
+  height: 3vw;
+  font-size: 3vw;
+  font-family: Rubik;
+}
+.reportTitle {
+  font-size: 4vw;
+  font-family: Rubik;
+  color: #ffffff;
+  padding-left: 10%;
+  padding-top: 1%;
+}
+.reportPararaph {
+  padding-left: 10%;
+  padding-top: 2%;
+  color: #bbc0ff;
+}
+.cardTitle {
+  margin: auto;
+  display: inline-flex;
+  justify-content: space-between;
+  width: 100%;
+  color: #fff;
+  font-size: 1.5vw;
+  font-family: Rubik;
+}
+.cardBody {
+  font-size: 1.5vw;
+  font-family: Rubik;
+  color: #ffffff;
+  padding-left: 10%;
+  padding-top: 1%;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+.rightSideText {
+  font-size: 1vw;
+  font-family: Rubik;
+  /* margin-top: 40%; */
+  margin: auto;
+}
+.cardTitle button {
+  background-color: #1c204b;
+  border: 0px;
+  color: #fff;
+  /* font-size: 1.1vw; */
+  font-weight: bolder;
+  margin-right: 4%;
 }
