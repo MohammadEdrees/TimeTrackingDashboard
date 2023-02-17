@@ -51,8 +51,8 @@ body {
   display: grid;
   grid-template-columns: 20% 20% 20% 20% 20%;
   width: 100%;
-  column-gap: 1.5%;
-  row-gap: 10%;
+  column-gap: 0.5%;
+  row-gap: 1%;
 }
 .card {
   height: 85%;
@@ -65,7 +65,7 @@ body {
   width: 100%;
   background-color: #1c204b;
   border-radius: 10%;
-  margin-top: 20%;
+  margin-top: 25%;
   display: grid;
 }
 .profileImage {
