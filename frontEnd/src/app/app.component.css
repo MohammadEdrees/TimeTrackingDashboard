@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* body {
+  background-color: #0e1323;
+} */
+.parent {
+  width: 98vw;
+  /* height: 100%; */
+  /* padding: 0 0 2% 2%; */
+  background-color: #0e1323;
+}
+.navBar {
+  background-color: #707ba0;
+  width: 100%;
+  height: 46px;
+  margin-top: 1%;
+  border-radius: 9px;
+}
+
+.main {
+  width: 100%;
+  height: 600px;
+  /* background-color: #5672ce; */
+  margin-top: 5%;
+  display: flex;
+}
+.leftSection {
+  height: 94%;
+  width: 28%;
+  background-color: #1c204b;
+  margin-right: 1%;
+  /* border: 2px solid red; */
+  border-radius: 5%;
+}
+.reportForSide {
+  height: 60%;
+  width: 100%;
+  border-radius: 5%;
+  background-color: #5747ea;
+  color: #bbc0ff;
+}
+.profileImageContainer {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.rightSection {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  width: 100%;
+  column-gap: 0.5%;
+  row-gap: 1%;
+  align-content: space-evenly;
+}
+.card {
+  height: 65%;
+  width: 85%;
+  background-color: #ff8b64;
+  border-radius: 10%;
+}
+.innerCardPart {
+  height: 85%;
+  width: 100%;
+  background-color: #1c204b;
+  border-radius: 10%;
+  margin-top: 25%;
+  display: grid;
+  overflow: hidden;
+}
+.profileImage {
+  width: 48%;
+  height: 80%;
+  margin: auto;
+  border-radius: 50%;
+  border: 3px solid white;
+}
+.periods {
+  color: #ffffff;
+  padding-left: 10%;
+  padding-top: 10%;
+}
+.period {
+  height: 3vw;
+  font-size: 3vw;
+  font-family: Rubik;
+}
+.reportTitle {
+  font-size: 4vw;
+  font-family: Rubik;
+  color: #ffffff;
+  padding-left: 10%;
+  padding-top: 1%;
+}
+.reportPararaph {
+  padding-left: 10%;
+  padding-top: 2%;
+  color: #bbc0ff;
+}
+.cardTitle {
+  margin: auto;
+  display: inline-flex;
+  justify-content: space-between;
+  width: 100%;
+  color: #fff;
+  font-size: 1vw;
+  font-family: Rubik;
+  /* text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden; */
+  white-space: break-spaces;
+  max-lines: 3;
+}
+.cardBody {
+  font-size: 0.7vw;
+  font-family: Rubik;
+  color: #ffffff;
+  padding-left: 10%;
+  padding-top: 1%;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  overflow-wrap: anywhere;
+}
+
+.rightSideText {
+  font-size: 1vw;
+  font-family: Rubik;
+  /* margin-top: 40%; */
+  margin: auto;
+}
+.cardTitle button {
+  background-color: #1c204b;
+  border: 0px;
+  color: #fff;
+  /* font-size: 1.1vw; */
+  font-weight: bolder;
+  margin-right: 4%;
+}
+.price {
+  font-size: 1.5vw;
+}
+.desc {
+  font-size: 0.7vw;
+}

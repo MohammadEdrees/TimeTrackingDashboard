@@ -1,0 +1,45 @@
+<div class="parent">
+  <!-- <div class='navBar'>
+
+  </div> -->
+  <div class='main'>
+      <section class='leftSection'>
+          <div class="reportForSide">
+              <section class="profileImageContainer">
+                  <img class="profileImage" src="Lufi.jpg" alt="Image">
+              </section>
+              <div class="reportPararaph" >
+                Report For
+                <p class="reportTitle">Best Sales</p>
+              </div>
+          </div>
+          <div class="periods">
+              <p class="period">Daily</p>
+              <p class="period">Weekly</p>
+              <p class="period">Monthly</p>
+          </div>
+      </section>
+      <section class='rightSection'>
+          <div class="card" *ngFor="let product of products">
+              <div class="innerCardPart">
+                  <section class="cardTitle">
+                      <p>{{product.title}}</p>
+                      <button>...</button>
+                  </section>
+                  <section class="cardBody">
+                      <div>
+                          <p class="price">{{product.price}}</p>
+                          <p class="desc">{{product.description}}</p>
+                      </div>
+                      <!-- <div class="rightSideText">
+                          In store
+                      </div> -->
+                  </section>
+                </div>
+          </div>
+
+      </section>
+
+
+  </div>
+</div>
